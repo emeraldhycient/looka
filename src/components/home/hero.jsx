@@ -5,7 +5,7 @@ function Hero() {
     <section id="hero">
       <div className="container">
         <div className="col-md-9 mx-auto">
-          <div className="d-flex justify-content-between align-items-center">
+          <div className="hero_container">
             <div className="col-md-6">
               <h4 id="herotext">
                 Lookup Awesome <span className="primarytext"> NFTs</span>
