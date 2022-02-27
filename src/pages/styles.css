@@ -1,0 +1,6 @@
+.main {
+    background: radial-gradient(50% 50% at 50% 50%, #0D0A01 0%, rgba(242, 233, 200, 0) 24.6%);
+    background: #000;
+    height: 100vh;
+    width: 100vw;
+}
