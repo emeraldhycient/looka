@@ -12,7 +12,7 @@ function Hero() {
               </h4>
               <h6 className="text-light">from OpenSea</h6>
             </div>
-            <div className="col-md-5">
+            <div className="col-md-5" id="armsmoky">
               <img src={armsmoky} alt="" />
             </div>
           </div>

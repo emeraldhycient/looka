@@ -29,4 +29,7 @@
     .hero_container {
         display: block;
     }
+    #armsmoky {
+        margin-top: 30px;
+    }
 }
