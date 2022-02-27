@@ -1,6 +1,20 @@
 .main {
     background: radial-gradient(50% 50% at 50% 50%, #0D0A01 0%, rgba(242, 233, 200, 0) 24.6%);
     background: #000;
-    height: 100vh;
+    height: 10000px;
     width: 100vw;
+}
+
+#hero {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+#herotext {
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
 }
