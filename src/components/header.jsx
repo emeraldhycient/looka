@@ -40,8 +40,8 @@ function Header() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Features
+              <a className="btn primarybg" href="#">
+                Join Community
               </a>
             </li>
           </ul>

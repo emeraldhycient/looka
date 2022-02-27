@@ -6,3 +6,12 @@ body {
     box-sizing: border-box;
     padding: 0;
 }
+
+.primarybg {
+    background-color: #f92c3f;
+    color: #f4f4f4
+}
+
+.primarytext {
+    color: #f92c3f;
+}
