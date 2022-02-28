@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section id="hero">
       <div className="container">
-        <div className="col-md-9 mx-auto">
+        <div className="col-md-9 col-lg-9 col mx-auto">
           <div className="hero_container">
             <div className="col-md-6">
               <h4 id="herotext">

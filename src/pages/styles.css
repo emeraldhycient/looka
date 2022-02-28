@@ -25,6 +25,15 @@
     color: #fff;
 }
 
+.amazing_header {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center
+}
+
 @media(max-width: 767px) {
     .hero_container {
         display: block;
