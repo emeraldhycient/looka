@@ -1,7 +1,6 @@
 .main {
     background: radial-gradient(50% 50% at 50% 50%, #0D0A01 0%, rgba(242, 233, 200, 0) 24.6%);
     background: #000;
-    height: 10000px;
     width: 100vw;
 }
 
@@ -34,6 +33,42 @@
     text-align: center
 }
 
+.community_header {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center
+}
+
+.community {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: inherit;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    background: #201F1F;
+    border-radius: 9px;
+}
+
+.community_img {
+    height: 100px;
+    width: 145px;
+    border-radius: 9px;
+}
+
+.community_vid {
+    height: 100px;
+    width: 150px;
+    border-radius: 9px;
+}
+
 @media(max-width: 767px) {
     .hero_container {
         display: block;
@@ -44,5 +79,12 @@
     .amazing_header {
         margin-top: 70px;
         margin-bottom: 70px;
+    }
+    .community {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 80vw;
     }
 }

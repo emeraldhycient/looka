@@ -6,7 +6,7 @@ function Header() {
     <header>
       <div className="container">
         <div className="row">
-          <div className="col-md-9 mx-auto">
+          <div className="col-md-10 col-lg-10 mx-auto">
             <nav
               className="navbar navbar-expand-lg navbar-dark"
               style={{ backgroundColor: "#000" }}
@@ -19,7 +19,7 @@ function Header() {
                   className="d-inline-block align-top mt-2"
                   alt="Looka logo"
                 />
-                Looka
+                <strong>Looka</strong>
               </a>
               <button
                 className="navbar-toggler"
