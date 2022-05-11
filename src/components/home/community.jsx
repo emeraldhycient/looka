@@ -102,6 +102,7 @@ function Community() {
                     autoPlay
                     loop
                     muted
+                    loading="lazy"
                     controls
                   >
                     <source
@@ -113,6 +114,7 @@ function Community() {
                   <img
                     src={changeProtocol(nft)}
                     alt=""
+                    loading="lazy"
                     className="community_img"
                   />
                 )}
